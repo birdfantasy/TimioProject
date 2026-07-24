@@ -8,5 +8,12 @@
  * @author Fatem
  */
 public class Task {
+    public String priority;
+    public int time;
+
+    public Task() {
+        this.priority = " ";
+        this.time = 0;
+    }
     
 }
